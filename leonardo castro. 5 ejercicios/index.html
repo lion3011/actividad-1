@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora con JavaScript</title>
+<link type="text/css" href="calculadora.css" rel="stylesheet">
+<script type="text/JavaScript" src="todo.js"></script>
+</head>
+<body onload="init();">
+  <h3>MAYOR MENOR </h3>
+  <form name = "form1">
+    <input type="text" name="a1" size="10">
+    <input type="text" name="b2" size="10">
+    <input type="text" name="c3" size="10">
+    <input type="button" value="resultado" onclick="resultado()">
+  </form>
+
+  <h3>FORMULAS</h3>
+  <form name="form2">
+    <input type="text" name="a1" size="10">
+    <input type="text" name="b2" size="10">
+    <input type="button" value="resultado" onclick="espaciotiempo()">
+  </form>
+
+  <h3>TABLAS DE MULTIPLICAR</h3>
+  <form name="form3">
+    <input type="text" name="a1" size="10">
+    <input type="button" value="resultado" onclick="tablamultiplicar()">
+    <div id="resultado"></div>
+  </form>
+
+  <h3>CANTIDAD DE DIGITOS EN UN NUMERO NATURAL</h3>
+  <form name="form4">
+    <input type="text" name="a1" size="10">
+    <input type="button" value="resultado" onclick="CantidadDigitosNaturales()">
+  </form>
+
+  <h3>MAYOR Y MENOR DE 4 NUMEROS </h3>
+  <form name = "form5">
+    <input type="text" name="a1" size="10">
+    <input type="text" name="b2" size="10">
+    <input type="text" name="c3" size="10">
+    <input type="text" name="d4" size="10">
+    <input type="button" value="resultado" onclick="mayormenor4()">
+  </form>
+  
+</body>
+</html>
